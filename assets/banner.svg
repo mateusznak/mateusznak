@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Mateusz Nakonieczny - Founder of Rothcor AI and Rothcor Studios">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fffd"/>
+      <stop offset="1" stop-color="#def7ee"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ee6b0"/>
+      <stop offset="1" stop-color="#0fb98a"/>
+    </linearGradient>
+    <radialGradient id="blobL" cx="0.05" cy="0.2" r="0.45">
+      <stop offset="0" stop-color="#19d6a2" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#19d6a2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobR" cx="0.95" cy="0.9" r="0.45">
+      <stop offset="0" stop-color="#19d6a2" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#19d6a2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#0fb98a" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0fb98a" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <style>
+    .sans  { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .hand  { font-family: 'Segoe Script', 'Bradley Hand', 'Comic Sans MS', cursive; font-style: italic; }
+    .chip  { animation: float 4.6s ease-in-out infinite; }
+    .d1 { animation-delay: .5s; } .d2 { animation-delay: 1s; } .d3 { animation-delay: 1.5s; } .d4 { animation-delay: 2s; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    .ring { transform-box: fill-box; transform-origin: center; animation: ring 3s ease-in-out infinite; }
+    @keyframes ring { 0%,100% { transform: scale(1); opacity: .6; } 50% { transform: scale(1.8); opacity: 0; } }
+  </style>
+
+  <rect width="1200" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#blobL)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#blobR)"/>
+
+  <!-- top-left tags -->
+  <g class="sans" font-size="11" letter-spacing="4" fill="#6f8b86">
+    <text x="44" y="48">STRATEGY</text>
+    <text x="44" y="68">AUTOMATION</text>
+    <text x="44" y="88">TOOLS</text>
+    <text x="44" y="108">GROWTH</text>
+  </g>
+  <rect x="44" y="122" width="34" height="2" rx="1" fill="#19d6a2"/>
+
+  <!-- wordmark -->
+  <text class="sans" x="600" y="54" text-anchor="middle" font-size="20" font-weight="600" letter-spacing="9" fill="#0b1f1c">ROTHCOR <tspan fill="#0fb98a">AI</tspan></text>
+  <text class="sans" x="600" y="76" text-anchor="middle" font-size="12" letter-spacing="4" fill="#6f8b86">AI + SOFTWARE HOUSE</text>
+
+  <!-- headline -->
+  <text class="sans" x="600" y="150" text-anchor="middle" font-size="64" font-weight="800" fill="#0b1f1c" letter-spacing="-1.5">Mateusz <tspan fill="#0fb98a">Nakonieczny</tspan></text>
+  <path d="M540 168 C 680 182, 820 176, 960 164" fill="none" stroke="url(#mint)" stroke-width="4" stroke-linecap="round"/>
+
+  <text class="sans" x="600" y="208" text-anchor="middle" font-size="21" fill="#3d5a56">Founder of Rothcor AI and Rothcor Studios. I connect tools and build systems that work for you.</text>
+
+  <!-- top-right bubble -->
+  <g transform="rotate(-6 1075 70)">
+    <ellipse cx="1075" cy="70" rx="108" ry="44" fill="none" stroke="#19d6a2" stroke-width="2"/>
+    <text class="hand" x="1075" y="64" text-anchor="middle" font-size="17" fill="#4b6662">More possibilities</text>
+    <text class="hand" x="1075" y="88" text-anchor="middle" font-size="17" fill="#4b6662">for your business.</text>
+  </g>
+  <path d="M948 100 C 962 108, 975 102, 982 92" fill="none" stroke="#19d6a2" stroke-width="2" stroke-linecap="round"/>
+  <circle class="ring" cx="1162" cy="190" r="9" fill="#19d6a2"/>
+  <circle cx="1162" cy="190" r="8" fill="#ffffff" stroke="#19d6a2" stroke-width="3"/>
+
+  <!-- left handwritten note -->
+  <g transform="rotate(-8 100 285)">
+    <text class="hand" x="40" y="268" font-size="19" fill="#4b6662">Automate.</text>
+    <text class="hand" x="48" y="294" font-size="19" fill="#4b6662">Scale.</text>
+    <text class="hand" x="56" y="320" font-size="19" fill="#4b6662">Save time.</text>
+  </g>
+
+  <!-- chips -->
+  <g class="sans" font-size="16" font-weight="600" fill="#0b1f1c" text-anchor="middle">
+
+    <g class="chip">
+      <g transform="translate(193 238)" filter="url(#sh)">
+        <rect width="150" height="92" rx="22" fill="#ffffff" stroke="#d3f2e8"/>
+        <circle cx="75" cy="34" r="23" fill="#e4faf3"/>
+        <g stroke="#ea4b71" stroke-width="2.2" fill="#ffffff">
+          <line x1="63" y1="34" x2="84" y2="25"/><line x1="63" y1="34" x2="84" y2="43"/>
+          <circle cx="62" cy="34" r="4.5"/><circle cx="85" cy="25" r="4.5"/><circle cx="85" cy="43" r="4.5"/>
+        </g>
+        <text x="75" y="80">n8n</text>
+      </g>
+    </g>
+
+    <g class="chip d1">
+      <g transform="translate(359 238)" filter="url(#sh)">
+        <rect width="150" height="92" rx="22" fill="#ffffff" stroke="#d3f2e8"/>
+        <circle cx="75" cy="34" r="23" fill="#e4faf3"/>
+        <g fill="#7c3aed">
+          <rect x="62" y="23" width="6" height="22" rx="3" transform="skewX(-14)"/>
+          <rect x="72" y="23" width="6" height="22" rx="3" transform="skewX(-14)"/>
+          <rect x="82" y="23" width="6" height="22" rx="3" transform="skewX(-14)"/>
+        </g>
+        <text x="75" y="80">Make</text>
+      </g>
+    </g>
+
+    <g class="chip d2">
+      <g transform="translate(525 238)" filter="url(#sh)">
+        <rect width="150" height="92" rx="22" fill="#ffffff" stroke="#d3f2e8"/>
+        <circle cx="75" cy="34" r="23" fill="#e4faf3"/>
+        <path d="M75 20 Q75 34 89 34 Q75 34 75 48 Q75 34 61 34 Q75 34 75 20Z" fill="#0fb98a" stroke="#0fb98a" stroke-width="2" stroke-linejoin="round"/>
+        <text x="75" y="80">AI</text>
+      </g>
+    </g>
+
+    <g class="chip d3">
+      <g transform="translate(691 238)" filter="url(#sh)">
+        <rect width="150" height="92" rx="22" fill="#ffffff" stroke="#d3f2e8"/>
+        <circle cx="75" cy="34" r="23" fill="#e4faf3"/>
+        <path d="M62 24 H88 a3 3 0 0 1 3 3 V40 a3 3 0 0 1 -3 3 H73 L66 49 V43 H62 a3 3 0 0 1 -3 -3 V27 a3 3 0 0 1 3 -3Z" fill="none" stroke="#0fb98a" stroke-width="2.4" stroke-linejoin="round"/>
+        <g fill="#0fb98a"><circle cx="68" cy="33.5" r="2"/><circle cx="75" cy="33.5" r="2"/><circle cx="82" cy="33.5" r="2"/></g>
+        <text x="75" y="80">chatbots</text>
+      </g>
+    </g>
+
+    <g class="chip d4">
+      <g transform="translate(857 238)" filter="url(#sh)">
+        <rect width="150" height="92" rx="22" fill="#ffffff" stroke="#d3f2e8"/>
+        <circle cx="75" cy="34" r="23" fill="#e4faf3"/>
+        <g fill="none" stroke="#0fb98a" stroke-width="2.4" stroke-linecap="round">
+          <circle cx="68" cy="34" r="9"/><circle cx="82" cy="34" r="9"/>
+        </g>
+        <text x="75" y="80">integrations</text>
+      </g>
+    </g>
+  </g>
+</svg>

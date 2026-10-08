@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Services: automation, AI agents and chatbots, web and software">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fffd"/>
+      <stop offset="1" stop-color="#e0f8ef"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ee6b0"/>
+      <stop offset="1" stop-color="#0fb98a"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#0fb98a" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0fb98a" flood-opacity=".2"/>
+    </filter>
+    <g id="check">
+      <circle r="9" fill="#d9f8ee"/>
+      <path d="M-4 0.5 L-1 3.5 L4.5 -3" fill="none" stroke="#0fb98a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 22px; font-weight: 700; fill: #0b1f1c; }
+    .tag   { font-size: 11px; letter-spacing: 3px; fill: #0fb98a; font-weight: 600; }
+    .b     { font-size: 15px; fill: #3d5a56; }
+    .spin  { transform-box: fill-box; transform-origin: center; animation: spin 12s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .blink { animation: blink 2.4s ease-in-out infinite; }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+  </style>
+
+  <rect width="1200" height="330" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="20" fill="url(#grid)"/>
+
+  <!-- card 1 -->
+  <g filter="url(#sh)">
+    <rect x="24" y="24" width="360" height="282" rx="22" fill="#ffffff" stroke="#d3f2e8"/>
+  </g>
+  <circle cx="74" cy="82" r="28" fill="#e4faf3"/>
+  <g class="spin"><circle cx="74" cy="82" r="13" fill="none" stroke="#0fb98a" stroke-width="3.2" stroke-dasharray="6 4.5"/></g>
+  <circle cx="74" cy="82" r="4.5" fill="#0fb98a"/>
+  <text class="sans tag" x="116" y="72">01</text>
+  <text class="sans title" x="116" y="96">Automation</text>
+  <g class="sans b">
+    <use href="#check" x="52" y="144"/><text x="72" y="149">n8n and Make workflows</text>
+    <use href="#check" x="52" y="184"/><text x="72" y="189">CRM, email, invoicing, forms</text>
+    <use href="#check" x="52" y="224"/><text x="72" y="229">APIs, webhooks, integrations</text>
+    <use href="#check" x="52" y="264"/><text x="72" y="269">Less manual work, fewer errors</text>
+  </g>
+
+  <!-- card 2 -->
+  <g filter="url(#sh)">
+    <rect x="408" y="24" width="384" height="282" rx="22" fill="#ffffff" stroke="#d3f2e8"/>
+  </g>
+  <circle cx="458" cy="82" r="28" fill="#e4faf3"/>
+  <rect x="443" y="70" width="30" height="22" rx="7" fill="none" stroke="#0fb98a" stroke-width="2.6"/>
+  <circle class="blink" cx="452" cy="81" r="3" fill="#0fb98a"/>
+  <circle class="blink" cx="464" cy="81" r="3" fill="#0fb98a"/>
+  <line x1="458" y1="70" x2="458" y2="63" stroke="#0fb98a" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="458" cy="61" r="3" fill="#0fb98a"/>
+  <text class="sans tag" x="500" y="72">02</text>
+  <text class="sans title" x="500" y="96">AI Agents &amp; Chatbots</text>
+  <g class="sans b">
+    <use href="#check" x="436" y="144"/><text x="456" y="149">LLM agents for real processes</text>
+    <use href="#check" x="436" y="184"/><text x="456" y="189">Support and lead-qualification bots</text>
+    <use href="#check" x="436" y="224"/><text x="456" y="229">Assistants on your own knowledge</text>
+    <use href="#check" x="436" y="264"/><text x="456" y="269">Plugged into the tools you use</text>
+  </g>
+
+  <!-- card 3 -->
+  <g filter="url(#sh)">
+    <rect x="816" y="24" width="360" height="282" rx="22" fill="#ffffff" stroke="#d3f2e8"/>
+  </g>
+  <circle cx="866" cy="82" r="28" fill="#e4faf3"/>
+  <text x="866" y="90" text-anchor="middle" font-family="'SFMono-Regular', Consolas, monospace" font-size="21" font-weight="700" fill="#0fb98a">&lt;/&gt;</text>
+  <text class="sans tag" x="908" y="72">03</text>
+  <text class="sans title" x="908" y="96">Web &amp; Software</text>
+  <g class="sans b">
+    <use href="#check" x="844" y="144"/><text x="864" y="149">Websites and web applications</text>
+    <use href="#check" x="844" y="184"/><text x="864" y="189">Custom software: C#, C++, Python</text>
+    <use href="#check" x="844" y="224"/><text x="864" y="229">Backend, APIs and databases</text>
+    <use href="#check" x="844" y="264"/><text x="864" y="269">Built under Rothcor Studios</text>
+  </g>
+</svg>
