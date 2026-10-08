@@ -1,152 +1,136 @@
-<!-- ============================================================
-  GitHub profile README for @mateusznak
-  Setup: create a PUBLIC repo named exactly "mateusznak" (same as your username),
-  put this file in its root as README.md. It then shows on your profile.
-  Items marked TODO need your real links/data.
-============================================================ -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Mateusz%20Nakonieczny&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20Automation%20%7C%20Agents%20%7C%20Web%20%26%20Software&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="header"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=A78BFA&center=true&vCenter=true&width=700&lines=Founder+of+Rothcor+%E2%80%94+AI+automation+agency;I+build+n8n+%26+Make+workflows+that+save+real+hours;AI+agents+%26+chatbots+for+real+business+processes;Websites+%26+software+via+Rothcor+Studios;Building+in+public+%E2%80%94+follow+%40mateusznako" alt="Typing SVG" />
-</a>
+<img src="assets/banner.svg" alt="Mateusz Nakonieczny - Founder of Rothcor AI and Rothcor Studios" width="100%"/>
 
 <br/>
 
-<a href="https://rothcor.com"><img src="https://img.shields.io/badge/Rothcor-AI%20Agency-7C3AED?style=for-the-badge&logo=openai&logoColor=white" alt="Rothcor"/></a>
-<a href="https://rothcor.com/studios"><img src="https://img.shields.io/badge/Rothcor%20Studios-Web%20%26%20Software-0EA5E9?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Rothcor Studios"/></a>
-<a href="https://www.linkedin.com/in/mateusznako"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-
-<img src="https://komarev.com/ghpvc/?username=mateusznak&label=Profile%20views&color=7C3AED&style=flat-square" alt="Profile views"/>
+<a href="https://rothcor.pl"><img src="https://img.shields.io/badge/ROTHCOR-rothcor.pl-14D8A1?style=for-the-badge&logo=googlechrome&logoColor=0b1f1c&labelColor=0b1f1c" alt="Rothcor"/></a>
+<a href="https://www.linkedin.com/in/mateusznako"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b1f1c" alt="LinkedIn"/></a>
 
 </div>
 
----
+<br/>
 
-## 👋 About me
+## About
 
-I'm a **21-year-old founder and developer from Warsaw, Poland**. I run **Rothcor**, an AI agency that automates the boring parts of business, and **Rothcor Studios**, where we ship websites, apps and custom software.
+I'm a **21-year-old founder and developer from Warsaw, Poland**. I run **[Rothcor AI](https://rothcor.pl)**, an agency that automates the repetitive parts of business, and **Rothcor Studios**, where we build websites, applications and custom software.
 
-I trained as a programming technician (passed the INF.03 and INF.04 professional exams with top results) and I'm now studying **Computer Science with an AI specialization** in Warsaw. In parallel, I work hands-on in a bookkeeping firm, so I understand how real business processes look from the inside, not just from a tutorial.
+I trained as a programming technician (INF.03 and INF.04 professional exams passed with top results) and I'm studying **Computer Science with an AI specialization** in Warsaw. Alongside that I work hands-on in a bookkeeping firm, so I know how real business processes look from the inside, not only from tutorials.
 
 ```python
 class Mateusz:
-    role     = ["Founder @ Rothcor", "Founder @ Rothcor Studios"]
-    location = "Warsaw, Poland 🇵🇱"
-    studying = "Computer Science (AI specialization)"
-    focus    = ["AI automation", "AI agents", "chatbots", "web apps"]
-    markets  = ["Global (English)", "B2B Poland"]
-    outside  = ["Gym 🏋️", "Travel ✈️", "Football games ⚽", "Getting back to martial arts 🥋"]
+    role      = ["Founder @ Rothcor AI", "Founder @ Rothcor Studios"]
+    location  = "Warsaw, Poland"
+    studying  = "Computer Science (AI specialization)"
+    languages = ["C#", "C++", "Python", "JavaScript", "TypeScript", "SQL"]
+    focus     = ["AI automation", "AI agents", "chatbots", "web apps", "custom software"]
+    markets   = ["Global (English)", "B2B Poland"]
 
     def now(self):
-        return "Building in public and shipping client systems"
+        return "Shipping client systems and building in public"
 ```
 
----
+<br/>
 
-## 🚀 What I do
+## What I do
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<img src="assets/services.svg" alt="Automation, AI agents and chatbots, web and software" width="100%"/>
 
-### ⚙️ Automation
-Workflows in **n8n** and **Make** that connect your CRM, inbox, invoicing, forms and databases so nothing is done by hand twice.
+<br/>
 
-</td>
-<td width="33%" valign="top">
+## How it works
 
-### 🤖 AI Agents & Chatbots
-LLM-powered agents and chatbots that handle support, lead qualification, internal Q&A and repetitive back-office tasks.
+<img src="assets/workflow.svg" alt="New lead, AI analysis, send reply, notify team, save to CRM" width="100%"/>
 
-</td>
-<td width="33%" valign="top">
+<img src="assets/benefits.svg" alt="Less manual work, more time, better process" width="100%"/>
 
-### 💻 Web & Software
-Websites, web apps and custom tools built under **Rothcor Studios**, from landing pages to full products.
+<br/>
 
-</td>
-</tr>
-</table>
-
----
-
-## 🏢 Companies
+## Companies
 
 | | Company | What it is |
-|---|---|---|
-| 🟣 | **[Rothcor](https://rothcor.com)** | AI agency: n8n / Make automations, AI agents, chatbots |
-| 🔵 | **[Rothcor Studios](https://rothcor.com/studios)** | Websites, applications and custom software |
+|:-:|---|---|
+| 🟢 | **[Rothcor AI](https://rothcor.pl)** | Automations in n8n and Make, AI agents, chatbots, integrations |
+| ⚪ | **Rothcor Studios** | Websites, online stores, applications and custom software |
 
-> 💬 Want to automate something in your business? **[Reach out →](https://rothcor.com)**
+> Want to automate something in your business? **[rothcor.pl](https://rothcor.pl)**
 
----
+<!--
+  OPTIONAL: brand posters gallery.
+  1. Save your three posters into the assets/ folder as: poster-ai.png, poster-agency.png, poster-studios.png
+  2. Delete this comment markers (the opening and closing lines) to show the section.
 
-## 🛠️ Tech stack
+<br/>
+
+## Rothcor
+
+<p align="center">
+  <img src="assets/poster-ai.png" width="32%" alt="Rothcor AI"/>
+  <img src="assets/poster-agency.png" width="32%" alt="Rothcor"/>
+  <img src="assets/poster-studios.png" width="32%" alt="Rothcor Studios"/>
+</p>
+-->
+
+<br/>
+
+## Tech stack
+
+**Languages**
+
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white&labelColor=0b1f1c" alt="C#"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white&labelColor=0b1f1c" alt="C++"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0b1f1c" alt="Python"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=0b1f1c" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=0b1f1c" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=0b1f1c" alt="SQL"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=0b1f1c" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=0b1f1c" alt="CSS3"/>
+
+**Databases**
+
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=0b1f1c" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=0b1f1c" alt="MySQL"/>
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white&labelColor=0b1f1c" alt="SQL Server"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=0b1f1c" alt="SQLite"/>
+
+**Backend and frameworks**
+
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white&labelColor=0b1f1c" alt=".NET"/>
+<img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0b1f1c" alt="Node.js"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=0b1f1c" alt="React"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=0b1f1c" alt="Next.js"/>
+<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=0b1f1c" alt="Tailwind CSS"/>
+
+**Automation and AI**
+
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white&labelColor=0b1f1c" alt="n8n"/>
+<img src="https://img.shields.io/badge/Make-6D00CC?style=flat-square&logo=make&logoColor=white&labelColor=0b1f1c" alt="Make"/>
+<img src="https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white&labelColor=0b1f1c" alt="Zapier"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white&labelColor=0b1f1c" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white&labelColor=0b1f1c" alt="Claude"/>
+
+**Tools**
+
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=0b1f1c" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=0b1f1c" alt="GitHub"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=0b1f1c" alt="Docker"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=0b1f1c" alt="Linux"/>
+<img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white&labelColor=0b1f1c" alt="Visual Studio"/>
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white&labelColor=0b1f1c" alt="VS Code"/>
+
+<br/>
+
+## Let's connect
+
+I share content about AI automation, building an agency and shipping products, mostly in English. I'm also open to **B2B collaborations in Poland**, and LinkedIn is the best place to start.
 
 <div align="center">
 
-<!-- TODO: adjust icons to what you actually use. Full list: https://skillicons.dev -->
-<img src="https://skillicons.dev/icons?i=js,ts,python,react,nextjs,nodejs,tailwind,html,css&perline=9" alt="Languages and frameworks"/>
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,postgres,docker,vercel,figma,vscode,linux&perline=8" alt="Tools"/>
+<a href="https://www.linkedin.com/in/mateusznako"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b1f1c" alt="LinkedIn"/></a>
+<a href="https://rothcor.pl"><img src="https://img.shields.io/badge/rothcor.pl-14D8A1?style=for-the-badge&logo=googlechrome&logoColor=0b1f1c&labelColor=0b1f1c" alt="Website"/></a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
-<img src="https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logo=make&logoColor=white" alt="Make"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
-<img src="https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logo=zapier&logoColor=white" alt="Zapier"/>
+<a href="https://rothcor.pl"><img src="assets/footer.svg" alt="Let's talk - rothcor.pl" width="100%"/></a>
 
 </div>
-
----
-
-## 📊 GitHub stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=mateusznak&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=A78BFA&icon_color=7C3AED" alt="GitHub stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mateusznak&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=A78BFA" alt="Top languages"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mateusznak&theme=tokyonight&hide_border=true&background=0f0c29&ring=A78BFA&fire=7C3AED&currStreakLabel=A78BFA" alt="Streak"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=mateusznak&theme=nord&no-frame=true&no-bg=true&row=1&column=7" alt="Trophies"/>
-
-</div>
-
----
-
-## 📈 Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mateusznak&theme=tokyo-night&hide_border=true&bg_color=0f0c29&color=A78BFA&line=7C3AED&point=ffffff" alt="Activity graph" width="100%"/>
-
-</div>
-
----
-
-## 🌍 Let's connect
-
-I post content about AI automation, building agencies and shipping products, mostly in English, and I'm open to **B2B collaborations in Poland** (LinkedIn is the best place to start).
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/mateusznako"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://x.com/mateusznako"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-<a href="https://www.instagram.com/mateusznako"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-<a href="https://rothcor.com"><img src="https://img.shields.io/badge/Website-Rothcor-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%" alt="footer"/>
